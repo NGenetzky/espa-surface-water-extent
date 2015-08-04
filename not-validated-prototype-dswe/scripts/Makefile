@@ -9,7 +9,8 @@ all:
 
 install:
 	install -d $(PREFIX)/bin
-	install -m 755 do_dynamic_surface_water_extent.py $(PREFIX)/bin
+	install -m 755 surface_water_extent.py $(PREFIX)/bin
 
 clean:
+
 
